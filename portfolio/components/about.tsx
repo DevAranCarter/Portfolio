@@ -24,6 +24,7 @@ const About = () => {
         py={[0, 10, 20]}
         pt={{ base: "20px" }}
         direction={{ base: "column", md: "row" }}
+        pl={{md: '80px'}}
       >
         <VStack w="full" h="full" alignItems={"center"} p={2} pt={{base:'30px'}}>
           <Heading>Devin Carter.</Heading>
@@ -42,7 +43,8 @@ const About = () => {
           w="full"
           h="full"
           alignItems={"center"}
-          pt={{ base: "20px", md: "100px" }}
+          pt={{ base: "20px", md: "50px" }}
+
         >
           <Heading>Skills</Heading>
           <Flex>
@@ -113,6 +115,18 @@ const About = () => {
                 src="https://cdn.worldvectorlogo.com/logos/react-1.svg"
               />
             </Stack>
+          </Flex>
+        </VStack>
+
+        <VStack
+          w="full"
+          h="full"
+          alignItems={"center"}
+          pt={{ base: "20px", md: "120px" }}
+        >
+          <Heading>About Me</Heading>
+          <Text>I am about to move into my final year at university, set to achieve a first in Computer Science.</Text>
+          <Flex>
           </Flex>
         </VStack>
       </Flex>
