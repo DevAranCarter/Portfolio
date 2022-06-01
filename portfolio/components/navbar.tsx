@@ -42,7 +42,7 @@ const Navbar = () => {
               </Link>
             </MenuItem>
             <MenuItem>
-              <Link as={NextLink} href="/#teams">
+              <Link as={NextLink} href="/#contact">
                 Contact
               </Link>
             </MenuItem>
@@ -59,12 +59,12 @@ const Navbar = () => {
             About Me
           </Button>
         </Link>
-        <Link as={NextLink} href="/#roadmap">
+        <Link as={NextLink} href="/#projects">
           <Button _hover={{bg: 'white'}} variant="ghost" as="a" cursor="pointer" fontSize="20px">
             Projects
           </Button>
         </Link>
-        <Link as={NextLink} href="/#teams">
+        <Link as={NextLink} href="/#contact">
           <Button _hover={{bg: 'white'}} variant="ghost" as="a" cursor="pointer" fontSize="20px">
             Contact
           </Button>

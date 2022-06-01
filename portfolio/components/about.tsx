@@ -24,16 +24,22 @@ const About = () => {
         py={[0, 10, 20]}
         pt={{ base: "20px" }}
         direction={{ base: "column", md: "row" }}
-        pl={{md: '80px'}}
+        pl={{ md: "80px" }}
       >
-        <VStack w="full" h="full" alignItems={"center"} p={2} pt={{base:'30px'}}>
+        <VStack
+          w="full"
+          h="full"
+          alignItems={"center"}
+          p={2}
+          pt={{ base: "30px" }}
+        >
           <Heading>Devin Carter.</Heading>
           <Heading>Software Engineer.</Heading>
           <Text>Web3 Full stack Creator</Text>
           <Image
             w={{ base: "200px", md: "280px", lg: "300px" }}
             h={{ base: "240px", md: "350px", lg: "380px" }}
-            borderRadius='full'
+            borderRadius="full"
             src="images/FFC04917-5D22-40B0-A793-26E06484DEB4_1_105_c.jpeg"
             alt="Picture of me"
           />
@@ -43,13 +49,12 @@ const About = () => {
           w="full"
           h="full"
           alignItems={"center"}
-          pt={{ base: "20px", md: "50px" }}
-
+          pt={{ base: "20px", md: "120px" }}
+          pr={{md: '50px'}}
         >
           <Heading>Skills</Heading>
           <Flex>
-            <Stack pr={{ base: "10px", lg: "40px" }}
-            pb='40px'>
+            <Stack pr={{ base: "10px", lg: "40px" }} pb="40px">
               <Image
                 borderRadius="full"
                 boxSize="50px"
@@ -122,15 +127,28 @@ const About = () => {
           w="full"
           h="full"
           alignItems={"center"}
-          pt={{ base: "20px", md: "120px" }}
+          pt={{ base: "20px", md: "180px" }}
+          pr={{md:'50px'}}
         >
           <Heading>About Me</Heading>
-          <Text>I am about to move into my final year at university, set to achieve a first in Computer Science.</Text>
-          <Flex>
-          </Flex>
+          <Text fontSize={{base: '15px'}}>
+            I am currently a student studying BSc (Honours) Computing and IT at
+            the Open University where I am on my way to getting a First Class
+            Honours.   Beyond university, my passion in computer science drives
+            me to be on the lookout for other things to learn. For example, I am
+            currently studying the Harvard CS50x - Introduction to Computer
+            Science. </Text>
+            <Text fontSize={{base: '15px'}}> I am currently looking for either a junior or intern
+            role, where im looking forward to working on a challenging and
+            impactful problem space. I am proficient in python and java, at the
+            same time i'm open to learn and work with any tech stack.   I
+            decided to pursue software engineering because I am passionate about
+            technology, enjoy problem solving and want to have real world
+            impact.
+          </Text>
         </VStack>
       </Flex>
-     </Container>
-  )
-}
+    </Container>
+  );
+};
 export default About;

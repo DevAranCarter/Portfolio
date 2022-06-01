@@ -9,14 +9,14 @@ import { ChakraProvider, Container, Box, color } from '@chakra-ui/react'
 
 const Home: NextPage = () => {
   return (
-    <Box bg='#f0e7db' maxHeight={'full'}>
+    <Container bg='#f0e7db' maxHeight={'full'} maxWidth='full'>
           <Container maxWidth={'full'} bg='#f4ede4' position={'fixed'}> 
             <Nav/>
             </Container>
             <About/>
             <Projects/>
 
-      </Box>
+      </Container>
   )
 }
 
