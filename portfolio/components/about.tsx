@@ -24,7 +24,6 @@ const About = () => {
         py={[0, 10, 20]}
         pt={{ base: "20px" }}
         direction={{ base: "column", md: "row" }}
-        pl={{ md: "80px" }}
       >
         <VStack
           w="full"
@@ -50,7 +49,7 @@ const About = () => {
           h="full"
           alignItems={"center"}
           pt={{ base: "20px", md: "120px" }}
-          pr={{md: '50px'}}
+          pr={{ md: "50px" }}
         >
           <Heading>Skills</Heading>
           <Flex>
@@ -128,23 +127,25 @@ const About = () => {
           h="full"
           alignItems={"center"}
           pt={{ base: "20px", md: "180px" }}
-          pr={{md:'50px'}}
+          pr={{ md: "50px" }}
         >
           <Heading>About Me</Heading>
-          <Text fontSize={{base: '15px'}}>
+          <Text fontSize={{ base: "15px" }}>
             I am currently a student studying BSc (Honours) Computing and IT at
             the Open University where I am on my way to getting a First Class
             Honours.   Beyond university, my passion in computer science drives
             me to be on the lookout for other things to learn. For example, I am
             currently studying the Harvard CS50x - Introduction to Computer
-            Science. </Text>
-            <Text fontSize={{base: '15px'}}> I am currently looking for either a junior or intern
-            role, where im looking forward to working on a challenging and
-            impactful problem space. I am proficient in python and java, at the
-            same time i'm open to learn and work with any tech stack.   I
-            decided to pursue software engineering because I am passionate about
-            technology, enjoy problem solving and want to have real world
-            impact.
+            Science.{" "}
+          </Text>
+          <Text fontSize={{ base: "15px" }}>
+            {" "}
+            I am currently looking for either a junior or intern role, where im
+            looking forward to working on a challenging and impactful problem
+            space. I am proficient in python and java, at the same time i'm open
+            to learn and work with any tech stack.   I decided to pursue
+            software engineering because I am passionate about technology, enjoy
+            problem solving and want to have real world impact.
           </Text>
         </VStack>
       </Flex>

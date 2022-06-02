@@ -20,9 +20,14 @@ import { Image } from "@chakra-ui/react";
 const Navbar = () => {
   return (
     <Flex align="center" justify={"space-between"}>
-      <Text>
-        <b>Devin Carter</b>
-      </Text>
+      <Flex direction={"row"}>
+        <Image
+          src="../images/goldenboi.png"
+          borderRadius="full"
+          boxSize="40px"
+        />
+        <Text pt="8px">Devin Carter</Text>
+      </Flex>
       <Box display={{ base: "flex", md: "none" }}>
         <Menu>
           <MenuButton
@@ -36,7 +41,7 @@ const Navbar = () => {
                 About Me
               </Link>
             </MenuItem>
-            <MenuItem >
+            <MenuItem>
               <Link as={NextLink} href="/#projects">
                 Projects
               </Link>
@@ -55,17 +60,35 @@ const Navbar = () => {
         display={{ base: "none", md: "flex" }}
       >
         <Link as={NextLink} href="/#about">
-          <Button _hover={{bg: 'white'}} variant="ghost" as="a" cursor="pointer" fontSize="20px">
+          <Button
+            _hover={{ bg: "white" }}
+            variant="ghost"
+            as="a"
+            cursor="pointer"
+            fontSize="20px"
+          >
             About Me
           </Button>
         </Link>
         <Link as={NextLink} href="/#projects">
-          <Button _hover={{bg: 'white'}} variant="ghost" as="a" cursor="pointer" fontSize="20px">
+          <Button
+            _hover={{ bg: "white" }}
+            variant="ghost"
+            as="a"
+            cursor="pointer"
+            fontSize="20px"
+          >
             Projects
           </Button>
         </Link>
         <Link as={NextLink} href="/#contact">
-          <Button _hover={{bg: 'white'}} variant="ghost" as="a" cursor="pointer" fontSize="20px">
+          <Button
+            _hover={{ bg: "white" }}
+            variant="ghost"
+            as="a"
+            cursor="pointer"
+            fontSize="20px"
+          >
             Contact
           </Button>
         </Link>

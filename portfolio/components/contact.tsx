@@ -14,14 +14,12 @@ import {
   Image,
   Container,
   Grid,
-  LinkBox,
 } from "@chakra-ui/react";
-
-const Projects = () => {
+const Contact = () => {
   return (
-    <Container id="projects" pt={{ base: "600px", md: "10px", lg: "10px" }}>
+    <Container id="contact" pt={{ base: "600px", md: "10px", lg: "10px" }}>
       <Center>
-        <Heading>Projects</Heading>
+        <Heading>Contact</Heading>
       </Center>
       <Flex
         h="100vh"
@@ -36,7 +34,7 @@ const Projects = () => {
           p={2}
           pt={{ base: "30px" }}
         >
-          <Heading>Web3 Website</Heading>
+          <Heading>Email</Heading>
         </VStack>
         <VStack
           w="full"
@@ -45,7 +43,7 @@ const Projects = () => {
           p={2}
           pt={{ base: "30px" }}
         >
-          <Heading>Project 2</Heading>
+          <Heading>Twitter</Heading>
         </VStack>
         <VStack
           w="full"
@@ -61,4 +59,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Contact;
