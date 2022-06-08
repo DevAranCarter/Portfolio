@@ -18,7 +18,8 @@ import {
 
 const About = () => {
   return (
-    <Container maxWidth={"full"} p={0} id="about">
+    <Container maxWidth={"full"} p={0} id="about"
+    maxHeight={"full"}>
       <Flex
         h="100vh"
         py={[0, 10, 20]}
