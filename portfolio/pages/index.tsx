@@ -7,11 +7,14 @@ import About from "../components/about";
 import Projects from "../components/projects";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
+import { ColorModeScript } from '@chakra-ui/react';
 import { ChakraProvider, Container, Box, color } from "@chakra-ui/react";
+import theme from "../components/theme";
 
 const Home: NextPage = () => {
   return (
-        <Box maxHeight={"full"} maxWidth={"full"}>
+        <Box maxHeight={"full"} maxWidth={"full"} >
+          <ColorModeScript initialColorMode={theme.config.initialColorMode} />
         <Nav />
         <Container bg={'#f0e7db'} maxHeight={"full"} maxWidth={"full"}>
       <About />
