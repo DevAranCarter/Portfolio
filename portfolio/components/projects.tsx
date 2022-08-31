@@ -5,14 +5,15 @@ import { WorkGridItem } from '../components/grid-item'
 
 const Works = () => (
   <Layout title="Work">
-    <Container pt={{base:'700px', md:'400px', lg:'200px', xl:'100px'}}>
+    <Container pt={{base:'700px', md:'400px', lg:'200px', xl:'100px'}}
+    textColor={"blackAlpha.900"}>
       <Center>
       <Heading fontSize={50} mb={4} id='work'>
         Work
       </Heading>
       </Center>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={[1, 1, 2]} gap={6} textColor={"blackAlpha.900"}>
         <Section>
           <WorkGridItem id="NFT-template" link="https://github.com/felwintrr/fantom-dapp" title="NFT template" thumbnail={'/images/Screenshot 2022-06-02 at 14.08.41.png'}>
             A website that NFT artists can customise for their own NFT project.

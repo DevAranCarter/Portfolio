@@ -20,13 +20,14 @@ import { Image } from "@chakra-ui/react";
 const Navbar = () => {
   return (
     <Flex bg='#f4ede4' align="center" justify={"space-between"}>
-      <Flex direction={'row'}>
+      <Flex direction={'row'} textColor={"blackAlpha.900"}>
       <Image src="../images/goldenboi.png" borderRadius="full" boxSize="40px"/>
       <Text pt='8px'>
         Devin Carter
       </Text>
       </Flex>
-      <Box display={{ base: "flex", md: "none" }}>
+      <Box display={{ base: "flex", md: "none" }}
+      textColor={"blackAlpha.900"}>
         <Menu>
           <MenuButton
             as={IconButton}

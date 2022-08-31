@@ -17,7 +17,8 @@ import {
 } from "@chakra-ui/react";
 const Contact = () => {
   return (
-    <Container id="contact" pt={{ base: "100px", md: "10px", lg: "100px" }}>
+    <Container id="contact" pt={{ base: "100px", md: "10px", lg: "100px" }}
+    textColor={"blackAlpha.900"}>
       <Center>
         <Heading>Contact</Heading>
       </Center>
@@ -26,6 +27,7 @@ const Contact = () => {
         py={[0, 10, 20]}
         pt={{ base: "20px" }}
         direction={{ base: "column", md: "row" }}
+        textColor={"blackAlpha.900"}
       >
         <VStack
           w="full"
