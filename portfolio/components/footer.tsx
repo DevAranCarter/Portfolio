@@ -56,7 +56,8 @@ import {
           justify={'center'}
           align={'center'}>
           <Image src="../images/goldenboi.png" borderRadius="full" boxSize="60px"/>
-          <Stack direction={'row'} spacing={6}>
+          <Stack direction={'row'} spacing={6}
+          textColor={"blackAlpha.900"} >
             <Link href={'/#about'} color='black' >About Me</Link>
             <Link href={'/#work'} color='black'>Work</Link>
             <Link href={'/#contact'} color='black'>Contact</Link>
@@ -75,6 +76,7 @@ import {
             spacing={4}
             justify={{ base: 'center', md: 'space-between' }}
             align={{ base: 'center', md: 'center' }}>
+            textColor={"blackAlpha.900"}
             <Text>© 2022 Devin Carter Portfolio. All rights reserved</Text>
             <Stack direction={'row'} spacing={6}>
               <SocialButton label={'Linkdeln'} href={'https://www.linkedin.com/in/devin-carter2/'}>
