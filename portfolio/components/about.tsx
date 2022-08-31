@@ -143,7 +143,7 @@ const About = () => {
             {" "}
             I am currently looking for either a junior or intern role, where im
             looking forward to working on a challenging and impactful problem
-            space. I am proficient in python and java, at the same time i'm open
+            space. I am proficient in python and java, at the same time im open
             to learn and work with any tech stack. I decided to pursue
             software engineering because I am passionate about technology, enjoy
             problem solving and want to have real world impact.
