@@ -58,6 +58,7 @@ const Navbar = () => {
         justify={"space-between"}
         display={{ base: "none", md: "flex" }}
         pr={{md: "100px", lg:"220px"}}
+        textColor={"blackAlpha.900"}
       >
         <Link as={NextLink} href="/#about">
           <Button
