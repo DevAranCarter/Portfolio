@@ -25,6 +25,7 @@ const About = () => {
         py={[0, 10, 20]}
         pt={{ base: "20px" }}
         direction={{ base: "column", md: "row" }}
+        textColor={"blackAlpha.100"}
       >
         <VStack
           w="full"
