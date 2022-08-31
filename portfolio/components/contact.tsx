@@ -18,7 +18,7 @@ import {
 const Contact = () => {
   return (
     <Container id="contact" pt={{ base: "10px", md: "10px", lg: "100px" }}
-    pb={{base: '100px'}}>
+    pb={{base: '100px'}} textColor={"blackAlpha.900"}>
       <Center>
         <Heading>Contact</Heading>
       </Center>
@@ -34,6 +34,7 @@ const Contact = () => {
           alignItems={"flex-start"}
           pt={{ base: "5px", md: '20px' }}
           pl={{base: '90px', md: '0px'}}
+          textColor={"blackAlpha.900"}
 
         >
           <Heading>Email</Heading>
@@ -50,6 +51,7 @@ const Contact = () => {
           h="full"
           alignItems={"center"}
           pt={{ base: "5px", md: '17px' }}
+          textColor={"blackAlpha.900"}
         >
           <Heading>GitHub</Heading>
           <Link href="https://github.com/DevAranCarter">
@@ -65,6 +67,7 @@ const Contact = () => {
           alignItems={"flex-end"}
           pt={{ base: "5px", md: '17px' }}
           pr={{base: '80px', md: '0px'}}
+          textColor={"blackAlpha.900"}
         >
           <Heading>Linkdeln</Heading>
           <Link href="https://www.linkedin.com/in/devin-carter2/" pr={{base:'20px', md: '30px'}}>

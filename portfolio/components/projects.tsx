@@ -5,7 +5,8 @@ import { WorkGridItem } from '../components/grid-item'
 
 const Works = () => (
   <Layout title="Work">
-    <Container pt={{base:'650px', md:'400px', lg:'200px', xl:'100px'}}>
+    <Container pt={{base:'650px', md:'400px', lg:'200px', xl:'100px'}}
+    textColor={"blackAlpha.900"}>
       <Center>
       <Heading fontSize={50} mb={4} id='work'>
         Work
