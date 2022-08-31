@@ -29,24 +29,6 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.1}>
-          <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={'/images/goldenboi.png'}
-            link="https://github.com/felwintrr/fantom-dapp"
-          >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={'/images/FFC04917-5D22-40B0-A793-26E06484DEB4_1_105_c.jpeg'} title="Menkiki"
-          link="https://github.com/felwintrr/fantom-dapp">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
-          </WorkGridItem>
-        </Section>
       </SimpleGrid>
     </Container>
   </Layout>
