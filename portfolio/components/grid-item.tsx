@@ -4,7 +4,7 @@ import { Box, Text, LinkBox, LinkOverlay} from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 import { isExternal } from 'util/types'
 
-export const GridItem = ({ children, href, title, thumbnail }) => (
+export const GridItem = ({ children, href, title, thumbnail }: any) => (
   <Box w="100%" textAlign="center">
     <LinkBox cursor="pointer">
       <Image
@@ -23,7 +23,7 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
   </Box>
 )
 
-export const WorkGridItem = ({ children, id, title, thumbnail, link}) => (
+export const WorkGridItem = ({ children, id, title, thumbnail, link}: any) => (
   <Box w="100%" textAlign="center">
     <NextLink href={link} passHref scroll={false}>
       <LinkBox cursor="pointer">
