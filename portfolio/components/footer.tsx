@@ -76,9 +76,9 @@ import {
             spacing={4}
             justify={{ base: 'center', md: 'space-between' }}
             align={{ base: 'center', md: 'center' }}>
-            textColor={"blackAlpha.900"}
-            <Text>© 2022 Devin Carter Portfolio. All rights reserved</Text>
-            <Stack direction={'row'} spacing={6}>
+            
+            <Text textColor={"blackAlpha.900"}>© 2022 Devin Carter Portfolio. All rights reserved</Text>
+            <Stack direction={'row'} spacing={6} color='black'>
               <SocialButton label={'Linkdeln'} href={'https://www.linkedin.com/in/devin-carter2/'}>
                 <FaLinkedin />
               </SocialButton>
