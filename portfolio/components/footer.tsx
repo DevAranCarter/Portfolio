@@ -78,7 +78,7 @@ import {
             align={{ base: 'center', md: 'center' }}>
             
             <Text textColor={"blackAlpha.900"}>© 2022 Devin Carter Portfolio. All rights reserved</Text>
-            <Stack direction={'row'} spacing={6} color='black'>
+            <Stack direction={'row'} spacing={6} color='black' backgroundColor={'grey.700'}>
               <SocialButton label={'Linkdeln'} href={'https://www.linkedin.com/in/devin-carter2/'}>
                 <FaLinkedin />
               </SocialButton>
