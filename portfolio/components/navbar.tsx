@@ -26,8 +26,7 @@ const Navbar = () => {
         Devin Carter
       </Text>
       </Flex>
-      <Box display={{ base: "flex", md: "none" }}
-      textColor={"blackAlpha.900"}>
+      <Box display={{ base: "flex", md: "none" }}>
         <Menu>
           <MenuButton
             as={IconButton}
@@ -36,7 +35,7 @@ const Navbar = () => {
           ></MenuButton>
           <MenuList>
             <MenuItem>
-              <Link as={NextLink} href="/#about">
+              <Link as={NextLink} href="/#about" >
                 About Me
               </Link>
             </MenuItem>
@@ -67,6 +66,7 @@ const Navbar = () => {
             as="a"
             cursor="pointer"
             fontSize="20px"
+            textColor={"blackAlpha.900"}
           >
             About Me
           </Button>
@@ -78,6 +78,7 @@ const Navbar = () => {
             as="a"
             cursor="pointer"
             fontSize="20px"
+            textColor={"blackAlpha.900"}
           >
             Work
           </Button>
@@ -89,6 +90,7 @@ const Navbar = () => {
             as="a"
             cursor="pointer"
             fontSize="20px"
+            textColor={"blackAlpha.900"}
           >
             Contact
           </Button>
