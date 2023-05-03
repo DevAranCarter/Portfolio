@@ -37,7 +37,7 @@ const Works = () => (
             id="Google-Homepage"
             title="Google Homepage recreation"
             thumbnail={"/images/Screenshot 2022-06-02 at 14.13.03.png"}
-            link="https://github.com/felwintrr/fantom-dapp"
+            link="https://github.com/DevAranCarter/google-homepage"
           >
             A recreation of the Google Homepage
           </WorkGridItem>
@@ -57,8 +57,8 @@ const Works = () => (
           <WorkGridItem
             id="Food pricing app"
             title="Dish pricing application"
-            thumbnail={"/images/Screenshot 2023-05-03 at 13.56.25.png"}
-            link="https://github.com/jannikuhl/NoMoreWaste"
+            thumbnail={"/images/Screenshot 2023-05-03 at 15.17.11.png"}
+            link="https://github.com/DevAranCarter"
           >
             An app that allows users to effectively price their dishes.{" "}
           </WorkGridItem>
