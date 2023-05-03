@@ -58,6 +58,7 @@ const Works = () => (
             id="Food pricing app"
             title="Dish pricing application"
             thumbnail={"/images/Screenshot 2023-05-03 at 13.56.25"}
+            link="https://github.com/jannikuhl/NoMoreWaste"
           >
             An app that allows users to effectively price their dishes.{" "}
           </WorkGridItem>
