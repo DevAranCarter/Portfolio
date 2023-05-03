@@ -18,8 +18,7 @@ import {
 
 const About = () => {
   return (
-    <Container maxWidth={"full"} p={0} id="about"
-    maxHeight={"full"}>
+    <Container maxWidth={"full"} p={0} id="about" maxHeight={"full"}>
       <Flex
         h="100vh"
         py={[0, 10, 20]}
@@ -36,7 +35,7 @@ const About = () => {
         >
           <Heading>Devin Carter.</Heading>
           <Heading>Software Engineer.</Heading>
-          <Text>Web3 Full stack Creator</Text>
+          <Text>Javascript Full stack Developer</Text>
           <Image
             w={{ base: "200px", md: "280px", lg: "300px" }}
             h={{ base: "240px", md: "350px", lg: "380px" }}
@@ -134,20 +133,18 @@ const About = () => {
           <Heading>About Me</Heading>
           <Text fontSize={{ base: "15px" }}>
             I am currently a student studying BSc (Honours) Computing and IT at
-            the Open University where I am on my way to getting a First Class
-            Honours. Beyond university, my passion in computer science drives
-            me to be on the lookout for other things to learn. For example, I am
-            currently studying the Harvard CS50x - Introduction to Computer
-            Science.{" "}
+            the Open University where I am on my way to getting a 2:1 with
+            Honors. I am in my final year of University and I am current
+            creating my final project with React Native.{" "}
           </Text>
           <Text fontSize={{ base: "15px" }}>
             {" "}
             I am currently looking for either a junior or intern role, where im
             looking forward to working on a challenging and impactful problem
             space. I am proficient in python and java, at the same time im open
-            to learn and work with any tech stack. I decided to pursue
-            software engineering because I am passionate about technology, enjoy
-            problem solving and want to have real world impact.
+            to learn and work with any tech stack. I decided to pursue software
+            engineering because I am passionate about technology, enjoy problem
+            solving and want to have real world impact.
           </Text>
         </VStack>
       </Flex>
