@@ -46,7 +46,7 @@ const Works = () => (
           <WorkGridItem
             id="NoMoreWaste"
             title="NoMoreWaste Application"
-            thumbnail={"/images/Screenshot 2023-05-03 at 13.50.01"}
+            thumbnail={"/images/Screenshot 2023-05-03at13.50.01.png"}
             link="https://github.com/jannikuhl/NoMoreWaste"
           >
             An app designed to reduce food waste{" "}
@@ -57,7 +57,7 @@ const Works = () => (
           <WorkGridItem
             id="Food pricing app"
             title="Dish pricing application"
-            thumbnail={"/images/Screenshot 2023-05-03 at 13.56.25"}
+            thumbnail={"/images/Screenshot 2023-05-03at13.56.25.png"}
             link="https://github.com/jannikuhl/NoMoreWaste"
           >
             An app that allows users to effectively price their dishes.{" "}
