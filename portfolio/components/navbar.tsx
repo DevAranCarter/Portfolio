@@ -20,8 +20,7 @@ import { Image } from "@chakra-ui/react";
 const Navbar = () => {
   return (
     <Flex bg='#f4ede4' align="center" justify={"space-between"}>
-      <Flex direction={'row'} textColor={"blackAlpha.900"}>
-      <Image src="../images/goldenboi.png" borderRadius="full" boxSize="40px"/>
+      <Flex direction={'row'} textColor={"blackAlpha.900"}> 
       <Text pt='8px'>
         Devin Carter
       </Text>
