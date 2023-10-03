@@ -24,16 +24,6 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}> 
         <Section>
           <WorkGridItem
-            id="Calculator"
-            title="A colourful calculator"
-            thumbnail={"/images/Screenshot2023-10-03at17.15.10.png"}
-            link="https://github.com/DevAranCarter/Calculator.github.io"
-          >
-            A recreation of the Google Homepage
-          </WorkGridItem>
-        </Section>
-        <Section>
-          <WorkGridItem
             id="NoMoreWaste"
             title="NoMoreWaste Application"
             thumbnail={"/images/Screenshot 2023-05-03at13.50.01.png"}
@@ -51,6 +41,26 @@ const Works = () => (
             link="https://github.com/DevAranCarter"
           >
             An app that allows users to effectively price their dishes.{" "}
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="Calculator"
+            title="A colourful calculator"
+            thumbnail={"/images/Screenshot 2023-10-03at17.15.10.png"}
+            link="https://github.com/DevAranCarter/Calculator.github.io"
+          >
+            A colourful calculator
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="Admin-dash"
+            title="An admin dashboard"
+            thumbnail={"/images/Screenshot 2023-10-03at17.14.09.png"}
+            link="https://github.com/DevAranCarter/AdminDashboard.github.io"
+          >
+            An admin dashboard example
           </WorkGridItem>
         </Section>
       </SimpleGrid>
