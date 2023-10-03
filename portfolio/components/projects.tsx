@@ -47,7 +47,7 @@ const Works = () => (
           <WorkGridItem
             id="Calculator"
             title="A colourful calculator"
-            thumbnail={"portfolio/public/images/Screenshot 2023-10-03 at 17.15.10.png"}
+            thumbnail={"/images/calculator.png"}
             link="https://github.com/DevAranCarter/Calculator.github.io"
           >
             A colourful calculator
@@ -57,7 +57,7 @@ const Works = () => (
           <WorkGridItem
             id="Admin-dash"
             title="An admin dashboard"
-            thumbnail={"portfolio/public/images/Screenshot 2023-10-03 at 17.14.09.png"}
+            thumbnail={"/images/rocketship.png"}
             link="https://github.com/DevAranCarter/AdminDashboard.github.io"
           >
             An admin dashboard example
