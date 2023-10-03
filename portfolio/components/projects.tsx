@@ -21,17 +21,7 @@ const Works = () => (
         </Heading>
       </Center>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
-          <WorkGridItem
-            id="NFT-template"
-            link="https://github.com/felwintrr/fantom-dapp"
-            title="NFT template"
-            thumbnail={"/images/Screenshot 2022-06-02 at 14.08.41.png"}
-          >
-            A website that NFT artists can customise for their own NFT project.
-          </WorkGridItem>
-        </Section>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}> 
         <Section>
           <WorkGridItem
             id="Google-Homepage"
