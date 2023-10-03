@@ -24,10 +24,10 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}> 
         <Section>
           <WorkGridItem
-            id="Google-Homepage"
-            title="Google Homepage recreation"
-            thumbnail={"/images/Screenshot 2022-06-02 at 14.13.03.png"}
-            link="https://github.com/DevAranCarter/google-homepage"
+            id="Calculator"
+            title="A colourful calculator"
+            thumbnail={"portfolio/public/images/Screenshot 2023-10-03 at 17.15.10.png"}
+            link="https://github.com/DevAranCarter/Calculator.github.io"
           >
             A recreation of the Google Homepage
           </WorkGridItem>
