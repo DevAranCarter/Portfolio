@@ -8,8 +8,6 @@ import {
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
-import image1 from '../images/Screenshot 2023-10-03 at 17.14.09.png';
-import image2 from '../images/Screenshot 2023-10-03 at 17.15.10.png';
 
 const Works = () => (
   <Layout title="Work">
@@ -49,7 +47,7 @@ const Works = () => (
           <WorkGridItem
             id="Calculator"
             title="A colourful calculator"
-            thumbnail={image2}
+            thumbnail={"/public/images/Screenshot 2023-10-03 at 17.15.10.png"}
             link="https://github.com/DevAranCarter/Calculator.github.io"
           >
             A colourful calculator
@@ -59,7 +57,7 @@ const Works = () => (
           <WorkGridItem
             id="Admin-dash"
             title="An admin dashboard"
-            thumbnail={image1}
+            thumbnail={"/public/images/Screenshot 2023-10-03 at 17.14.09.png"}
             link="https://github.com/DevAranCarter/AdminDashboard.github.io"
           >
             An admin dashboard example
