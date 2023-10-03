@@ -26,7 +26,7 @@ const Works = () => (
           <WorkGridItem
             id="Calculator"
             title="A colourful calculator"
-            thumbnail={"images/Screenshot2023-10-03at17.15.10.png"}
+            thumbnail={"/images/Screenshot2023-10-03at17.15.10.png"}
             link="https://github.com/DevAranCarter/Calculator.github.io"
           >
             A recreation of the Google Homepage
