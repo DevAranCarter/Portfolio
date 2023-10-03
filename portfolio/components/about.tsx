@@ -133,15 +133,15 @@ const About = () => {
           <Heading>About Me</Heading>
           <Text fontSize={{ base: "15px" }}>
             I am currently a student studying BSc (Honours) Computing and IT at
-            the Open University where I am on my way to getting a 2:1 with
-            Honors. I am in my final year of University and I am current
+            the Open University where I am set to achieve a 1st class honours.
+             I am in my final year of University and I am currently
             creating my final project with React Native.{" "}
           </Text>
           <Text fontSize={{ base: "15px" }}>
             {" "}
-            I am currently looking for either a junior or intern role, where im
+            I am currently looking for either a graduate role, where im
             looking forward to working on a challenging and impactful problem
-            space. I am proficient in python and java, at the same time im open
+            space. I am proficient in Javascript, Python and Java, at the same time im open
             to learn and work with any tech stack. I decided to pursue software
             engineering because I am passionate about technology, enjoy problem
             solving and want to have real world impact.
